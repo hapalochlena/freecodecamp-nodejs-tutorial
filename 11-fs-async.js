@@ -56,7 +56,7 @@ readFile('./content/first.txt', 'utf8', (error, result) => {
   });
 })
 
-// = CALLBACK HELL
+// = CALLBACK HELL => use promise (.then.catch) for cleaner syntax => use aync/await for even cleaner syntax
 
 console.log('starting next task');
 
