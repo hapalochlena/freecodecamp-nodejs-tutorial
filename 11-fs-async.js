@@ -30,6 +30,7 @@ const { readFile, writeFile } = require('fs');
 // => read out first file, read out second file, create third file:
 
 console.log('start');
+
 readFile('./content/first.txt', 'utf8', (error, result) => {
   if(error) {
     console.log(error);

@@ -4,12 +4,15 @@ const http = require('http')
 //   res.end('Welcome')
 // })
 
+
 // Using Event Emitter API
+
 const server = http.createServer()
 // emits request event
 // subscribe to it / listen for it / respond to it
-server.on('request', (req, res) => {
+
+server.on('request', (req, res) => {  // = LISTENER
   res.end('Welcome')
 })
 
-server.listen(3000)
+server.listen(3000)   // = EMITTER

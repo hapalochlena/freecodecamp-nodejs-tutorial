@@ -1,4 +1,6 @@
- // readFile, readFileSync => you read the WHOLE file
+// WE WANT TO READ OUT THE BIG FILE
+
+// readFile, readFileSync => you read the WHOLE file
 // If it is a very BIG file
 //    => you use up a lot of memory
 //    => at a certain file size, eventually you will get an error that it doesn't work anymore to store it in a variable

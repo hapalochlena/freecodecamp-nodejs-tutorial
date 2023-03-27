@@ -10,3 +10,5 @@ const person = {
 }
 
 module.exports.singlePerson = person;
+// ! syntax above apparently deprecated? didn't work for current project!
+// what worked: module.exports = app instead of module.exports.app = app

@@ -13,3 +13,4 @@ const sayHi = require('./5-utils')
 // sayHi(names.peter)
 
 require('./7-mind-grenade')
+// the function from 7-mind-grenade.js will directly be executed

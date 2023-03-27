@@ -15,6 +15,6 @@ const absolute = path.resolve(__dirname, 'content', 'subfolder', 'test.txt');
 console.log(absolute);
 // output:
 // /Users/Lena/Desktop/Coding_Projects_2023/Phase_1_Warmup/Nodejs_Expressjs_YouTube_Tutorial_freeCodeCamp/1_tutorial/content/subfolder/test.txt
-// WHY?
+// WHY __dirname?
 // Our application is going to run in different environments
 // => the path to some resource is going to be different on my machine than in e.g. Heroku
